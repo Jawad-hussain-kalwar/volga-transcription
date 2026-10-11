@@ -1,0 +1,2 @@
+faster-whisper>=1.2,<2
+av<16  # PyAV 16+ dropped decode_audio()'s metadata_errors kwarg; faster-whisper 1.2.1 still passes it
